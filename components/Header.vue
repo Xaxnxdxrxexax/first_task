@@ -34,6 +34,9 @@ const isOpen = ref(false);
 </script>
 
 <style scoped>
+.logo {
+  cursor: pointer;
+}
 .wrapper {
   display: flex;
   padding-inline: 19.53%;
@@ -93,7 +96,7 @@ nav {
   padding: 1rem;
   background-color: #586e72;
   z-index: 99;
-  padding-inline: 19.53%;
+  padding-inline: 16.53%;
 
   ul {
     display: flex;

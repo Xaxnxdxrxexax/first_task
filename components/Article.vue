@@ -36,6 +36,7 @@ const info = [
   gap: 1rem;
   margin-top: 2rem;
   margin-inline: 1rem;
+  margin-bottom: 2rem;
 }
 img {
   min-height: 320px;
@@ -45,6 +46,7 @@ img {
 article {
   position: relative;
   width: 100%;
+  cursor: pointer;
 }
 article::before {
   content: "";
@@ -89,6 +91,7 @@ p {
     max-width: 1170px;
     margin-inline: auto;
     gap: 2.18rem;
+    margin-bottom: 5.1875rem;
   }
 
   article {

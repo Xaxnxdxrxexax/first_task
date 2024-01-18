@@ -2,6 +2,6 @@
   <Header />
   <Section />
   <Article />
-  <!-- <Aside />
-  <Footer /> -->
+  <Aside />
+  <Footer />
 </template>
