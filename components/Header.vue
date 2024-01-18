@@ -143,9 +143,9 @@ nav {
 
 @media (min-width: 768px) {
   .wrapper {
-    padding-inline: 2rem;
+    padding-inline: 0;
     margin-inline: auto;
-    max-width: 1500px;
+    max-width: 1170px;
   }
   .burger {
     display: none;
