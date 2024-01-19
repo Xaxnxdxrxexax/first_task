@@ -32,15 +32,15 @@ img {
   position: relative;
   width: 100%;
   max-width: 1170px;
-}
-.section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7) 90%);
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7) 90%);
+  }
 }
 .wrapper {
   position: absolute;
@@ -63,12 +63,12 @@ h2 {
 p {
   font-size: clamp(0.8rem, 1rem, 1.12rem);
   font-weight: 400;
-}
-p:first-of-type {
-  margin-bottom: 10px;
-}
-p:last-of-type {
-  margin-bottom: 49px;
+  &:first-of-type {
+    margin-bottom: 10px;
+  }
+  &:last-of-type {
+    margin-bottom: 49px;
+  }
 }
 
 span {
@@ -83,13 +83,13 @@ input {
   background-position: 99% 50%;
   background-size: 34px 30px;
   padding: 1rem;
-}
 
-input::placeholder {
-  color: black;
-  font-size: 18px;
-  font-weight: 200;
-  text-align: center;
+  &::placeholder {
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {

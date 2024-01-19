@@ -49,10 +49,10 @@ ul {
 
 li {
   cursor: pointer;
-}
 
-li:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .icons {

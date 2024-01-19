@@ -115,14 +115,14 @@ nav {
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
     font-size: 20px;
     font-weight: 500;
-  }
 
-  li:hover {
-    text-decoration: underline;
-  }
+    &:hover {
+      text-decoration: underline;
+    }
 
-  li:first-of-type {
-    margin-top: 1rem;
+    &:first-of-type {
+      margin-top: 1rem;
+    }
   }
 
   .lang {
@@ -131,10 +131,10 @@ nav {
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
     font-size: 18px;
     font-weight: 400;
-  }
 
-  .lang:hover {
-    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

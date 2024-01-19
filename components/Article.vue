@@ -47,15 +47,16 @@ article {
   position: relative;
   width: 100%;
   cursor: pointer;
-}
-article::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7) 90%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7) 90%);
+  }
 }
 
 .wrapper {
@@ -96,11 +97,11 @@ p {
   article {
     flex-grow: 1;
     flex-basis: 320px;
-  }
 
-  article:first-of-type {
-    flex-basis: 460px;
-    flex-grow: 1.4375;
+    &:first-of-type {
+      flex-basis: 460px;
+      flex-grow: 1.4375;
+    }
   }
 }
 </style>
