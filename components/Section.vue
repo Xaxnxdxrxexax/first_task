@@ -79,7 +79,7 @@ span {
 
 input {
   width: 100%;
-  background-image: url("~/assets/icon-search.svg");
+  background-image: url("/icons/icon-search.svg");
   background-repeat: no-repeat;
   background-position: 99% 50%;
   background-size: 34px 30px;
