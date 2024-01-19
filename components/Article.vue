@@ -3,17 +3,17 @@ const info = [
   {
     title: "Bemanning og rekruttering",
     description: "Vi finner og kurser riktige kandidater for deg",
-    link: "/_nuxt/assets/pictures/bemannig.png",
+    link: "/pictures/bemannig.png",
   },
   {
     title: "Konsulenttjenester",
     description: "Enkeltkonsulenter eller hele prosjekter",
-    link: "/_nuxt/assets/pictures/konsulenttjenester.png",
+    link: "/pictures/konsulenttjenester.png",
   },
   {
     title: "Programvare",
     description: "Progamvare for nanolearning og compliance",
-    link: "/_nuxt/assets/pictures/compliance.png",
+    link: "/pictures/compliance.png",
   },
 ];
 </script>

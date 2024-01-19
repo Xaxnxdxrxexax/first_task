@@ -4,19 +4,19 @@ const info = [
     title: "Nyhetssak 1",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed libero facilisis, ullamcorper ex ac, ultricies diam. In consectetur venenatis ligula at ultrices. Nunc tincidunt quam at venenatis lacinia.",
-    link: "/_nuxt/assets/pictures/nyhetssak.png",
+    link: "/pictures/nyhetssak.png",
   },
   {
     title: "Nyhetssak 2",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed libero facilisis, ullamcorper ex ac, ultricies diam. In consectetur venenatis ligula at ultrices. Nunc tincidunt quam at venenatis lacinia.",
-    link: "/_nuxt/assets/pictures/nyhetssak.png",
+    link: "/pictures/nyhetssak.png",
   },
   {
     title: "Nyhetssak 3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed libero facilisis, ullamcorper ex ac, ultricies diam. In consectetur venenatis ligula at ultrices. Nunc tincidunt quam at venenatis lacinia.",
-    link: "/_nuxt/assets/pictures/nyhetssak.png",
+    link: "/pictures/nyhetssak.png",
   },
 ];
 </script>

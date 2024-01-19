@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <section class="section">
-      <img src="~/assets/pictures/kurs.png" alt="kurs" />
+      <img src="/pictures/kurs.png" alt="kurs" />
       <div class="wrapper">
         <h2 class="">Kurs og sertifisering</h2>
         <p>

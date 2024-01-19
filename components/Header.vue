@@ -64,13 +64,13 @@ const isOpen = ref(false);
 }
 
 .burger-active {
-  background-image: url(~/assets/icon-hamburger.svg);
+  background-image: url(/icons/icon-hamburger.svg);
   width: 24px;
   height: 21px;
 }
 
 .burger-inactive {
-  background-image: url(~/assets/icon-close.svg);
+  background-image: url(/icons/icon-close.svg);
   width: 20px;
   height: 21px;
 }
