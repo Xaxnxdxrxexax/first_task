@@ -65,8 +65,7 @@ article::before {
   top: 0;
   left: 0;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
-  font-family: Roboto;
-  color: #fff;
+  color: $color-secondary;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;

@@ -33,7 +33,7 @@
 const isOpen = ref(false);
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .logo {
   cursor: pointer;
 }
@@ -46,7 +46,7 @@ const isOpen = ref(false);
 }
 
 .header {
-  background-color: #586e72;
+  background-color: $color-primary;
   min-height: 140px;
   color: white;
 }
@@ -94,7 +94,7 @@ nav {
   position: absolute;
   inset: 0 0 0 30%;
   padding: 1rem;
-  background-color: #586e72;
+  background-color: $color-primary;
   z-index: 99;
   padding-inline: 16.53%;
 
@@ -113,11 +113,8 @@ nav {
     list-style-type: none;
     cursor: pointer;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
-    font-family: "Roboto";
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
   }
 
   li:hover {
@@ -130,13 +127,10 @@ nav {
 
   .lang {
     cursor: pointer;
-    color: #fff;
+    color: $color-secondary;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
-    font-family: "Roboto";
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
   }
 
   .lang:hover {

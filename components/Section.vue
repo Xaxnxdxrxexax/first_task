@@ -51,9 +51,8 @@ img {
   padding-top: 2.6rem;
   padding-inline: 1rem;
   padding-bottom: 1.5rem;
-  color: #fff;
+  color: $color-secondary;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
-  font-family: Roboto;
 }
 h2 {
   font-size: clamp(1rem, 1.5vw, 2.25rem);
@@ -87,8 +86,7 @@ input {
 }
 
 input::placeholder {
-  color: #000;
-  font-family: Roboto;
+  color: black;
   font-size: 18px;
   font-weight: 200;
   text-align: center;

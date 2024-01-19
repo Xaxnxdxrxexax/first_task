@@ -26,10 +26,9 @@
 
 <style lang="scss" scoped>
 .container {
-  background-color: #434343;
+  background-color: $color-footer;
   min-height: 275px;
-  color: white;
-  font-family: Roboto;
+  color: $color-secondary;
 }
 footer {
   display: flex;

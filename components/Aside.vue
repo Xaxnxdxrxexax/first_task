@@ -42,8 +42,7 @@ aside {
 }
 .container {
   margin-inline: 1rem;
-  color: #000;
-  font-family: Roboto;
+  color: black;
   max-width: 1170px;
   margin-bottom: 3rem;
 }
